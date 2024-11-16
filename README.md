@@ -1,6 +1,6 @@
 # Jogo da Memória: Noite de Halloween
 
-Jogo da memória simples, com temática de Dia das Bruxas. Baseado no Desafio de Projeto da plataforma DIO. Tente encontrar todos os pares para escapar! 😈
+Jogo da memória simples, com temática de Dia das Bruxas. Baseado no Desafio de Projeto da plataforma DIO.
 
 ## Tecnologias Utilizadas
 
@@ -13,6 +13,10 @@ Jogo da memória simples, com temática de Dia das Bruxas. Baseado no Desafio de
 
 ![Screenshot da Aplicação](src/images/memory-game-screenshot.png)
 
+## Demonstração
+
+Você pode jogar clicando [aqui](https://memory-game-lemon-one.vercel.app/).
+
 ## Aprendizados
 
-O Javascript é uma ferramenta poderosa, e aprendi que sua capacidade de interagir com os elementos da tela abrem muitas possibilidades, mesmo nos projetos mais simples.
+O Javascript é uma ferramenta poderosa, e aprendi que sua capacidade de interagir com os elementos da tela abrem muitas possibilidades.
