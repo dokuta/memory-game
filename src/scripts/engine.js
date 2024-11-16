@@ -72,6 +72,6 @@ function checkMatch() {
 
     // condição de vitória
     if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu!!");
+        alert("Parabéns, você venceu! Dessa vez... 🎃");
     }
 }

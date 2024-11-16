@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fc1e8a;
+    background-color: #1b0030;
     user-select: none;
     /* border: 2px solid green; */
 }
@@ -17,16 +17,30 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(335deg, #03001e 0%, #7303c0 30%, #ec38bc 70%, #fdeff9 100%);
+    background: linear-gradient(335deg, #03001e 0%, #7303c0 30%, #700052 70%, #b9b9b9 100%);
     padding: 40px 60px;
-    /* border: 2px solid blue; */
+    border: 2px solid #0000aa;
 }
 
-.title {
-    font-size: 3em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+@supports (-webkit-text-stroke: 0.8px black) {
+    .title {
+        font-size: 3em;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: 0.8px black;
+    }
+
+    .subtitle {
+        font-size: 2.5em;
+        color: #fff;
+        text-transform: capitalize;
+        font-style: italic;
+        /* letter-spacing: 0.1em; */
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: 0.8px black;
+    }
 }
 
 .reset {
@@ -71,7 +85,7 @@ body {
     transform: rotateY(180deg);
     transition: 0.25s;
     cursor: pointer;
-    /* border: 2px solid aqua; */
+    /* border: 1px solid #000; */
 }
 
 .item::after {
