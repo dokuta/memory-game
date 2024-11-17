@@ -11,7 +11,7 @@ Jogo da memória simples, com temática de Dia das Bruxas. Baseado no Desafio de
 
 ## Screenshots
 
-![Screenshot da Aplicação](src/images/memory-game-screenshot.png)
+![Screenshot da Aplicação](src/images/game-screenshot.png)
 
 ## Demonstração
 
