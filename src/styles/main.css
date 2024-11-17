@@ -61,6 +61,27 @@ body {
     background-color: #03001e;
 }
 
+p {
+    color: #fff;
+    font-size: 1em;
+    justify-content: center;
+    font-style: italic;
+    letter-spacing: 0.2em;
+}
+
+p a {
+    color: #ca199b;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #ff52d1;
+}
+
+p a:active {
+    color: #fface9;
+}
+
 /* estilização do jogo */
 .game {
     width: 430px;
